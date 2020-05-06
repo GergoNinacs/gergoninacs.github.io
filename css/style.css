@@ -24,7 +24,7 @@ body {
     background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url('./../img/background/nordwood-themes.jpg');
+    background-image: url('./../img/background/contact-image.jpg');
   }
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .welcome-section {
-  background-image: url('./../img/background/jesus-kiteque.jpg'); 
+  background-image: url('./../img/background/welcome-image.jpg'); 
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: center center;
@@ -110,6 +110,16 @@ h5 {
 
 #contact-info {
   margin: 0px;
+}
+
+@media (min-width: 769px) {
+  .contact-details {
+    height: 50%;
+  }
+
+  .contact-title {
+    height: 30%;
+  }
 }
 
 p{
